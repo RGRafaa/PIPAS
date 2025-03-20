@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    transition: 1s;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+article {
+    background-color: white;
+    padding: 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+article h2 {
+    font-size: 1.8rem;
+    color: #444;
+}
+
+article p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.foto {
+    align-content: center;
+    justify-items: center;
+    display: flex;
+    width: 1920;
+    height: 1280;
+}
+
+figure img {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: antiquewhite;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+.foto {
+    display: flex;
+    justify-content: center; /* Menyusun gambar secara horizontal ke tengah */
+    align-items: center;     /* Menyusun gambar secara vertikal ke tengah */
+    width: 100%;             /* Memastikan lebar kontainer mengisi ruang */
+    height: 400px;           /* Tentukan tinggi kontainer jika perlu */
+    margin-bottom: 20px;
+}
+
+.foto img {
+    max-width: 100%;    /* Agar gambar tidak meluap */
+    height: auto;       /* Menjaga proporsi gambar */
+    display: block;     /* Menghindari ruang ekstra di bawah gambar */
+}
+
+.kontak {
+    text-decoration: none;
+}
